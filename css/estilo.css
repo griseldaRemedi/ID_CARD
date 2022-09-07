@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/08/2022, 10:00:15
+    Author     : Usuario
+*/
+body{
+}
+
+.div_foto{
+    background-image: url(../img/foto.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+}
+
+.tarjeta{
+    border-radius: 15px;
+    border-style: solid;
+    box-shadow: 5px 10px 15px gray;
+    margin: 20px;
+    width: 30%;
+   
+}
+.cuadro_texto{
+    padding: 20px;
+    
+    font-family: fantasy;
+    text-align: center;
+    color: gray;
+}
+
+#nombre{
+    /** letra **/    
+    text-align: center;
+    font-family: fantasy;
+    color: peachpuff;
+    background-color: gray;
+}
+
+.cuadro_texto:hover{
+     color: black;
+     text-shadow: 1px 1px 2px peachpuff;
+}
+
